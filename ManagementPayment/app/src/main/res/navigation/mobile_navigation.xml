@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.managementpayment.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.managementpayment.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.managementpayment.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_historial_pagos"
+        android:name="com.example.managementpayment.ui.historialpagos.HistorialPagosFragment"
+        android:label="@string/menu_historial_pagos"
+        tools:layout="@layout/fragment_historial_pagos" />
+
+    <fragment
+        android:id="@+id/nav_consejos_financieros"
+        android:name="com.example.managementpayment.ui.consejosfinancieros.ConsejosFinancierosFragment"
+        android:label="@string/menu_consejos_financieros"
+        tools:layout="@layout/fragment_consejos_financieros" />
+
+    <fragment
+        android:id="@+id/nav_noticias"
+        android:name="com.example.managementpayment.ui.noticias.NoticiasFragment"
+        android:label="@string/menu_noticias"
+        tools:layout="@layout/fragment_noticias" />
+</navigation>

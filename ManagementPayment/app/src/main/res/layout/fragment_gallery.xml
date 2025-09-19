@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/payment_and_finance"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="75dp"
+            android:text="@string/nombre"
+            android:textColor="#122BB1"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="263dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/nam"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/apellidos_completos"
+            android:textColor="#0B26BC"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText4"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="260dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/last_names"
+            android:inputType="text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/sueldos"
+            android:textColor="#0E28B5"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText5"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="263dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="@string/salario"
+            android:inputType="numberDecimal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="45dp"
+            android:backgroundTint="#0D29C5"
+            android:text="@string/guardar"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal"
+            tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

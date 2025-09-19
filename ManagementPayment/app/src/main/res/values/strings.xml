@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Management Payment</string>
+    <string name="title_activity_menu">Menú</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="inicio_sesión">Inicio de Sesión</string>
+    <string name="email">Correo electrónico:</string>
+    <string name="email_address">correo electrónico</string>
+    <string name="password">Contraseña:</string>
+    <string name="contraseña">contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="enter">Entrar</string>
+    <string name="register_of_the_user">Registro</string>
+    <string name="correo">Correo electrónico:</string>
+    <string name="correos">correo electrónico</string>
+    <string name="contrasena">Contraseña:</string>
+    <string name="contrasenaa">contraseña</string>
+    <string name="registrar">Guardar</string>
+    <string name="regresar">Regresar</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Registro Dinero</string>
+    <string name="nombre">Nombre:</string>
+    <string name="nam">nombre</string>
+    <string name="apellidos_completos">Apellidos:</string>
+    <string name="last_names">apellidos completos</string>
+    <string name="sueldos">Monto:</string>
+    <string name="salario">dinero</string>
+    <string name="guardar">Guardar</string>
+    <string name="menu_slideshow">Registro Pagos</string>
+    <string name="nombre_pago">Nombre del Pago:</string>
+    <string name="pago">nombre del pago</string>
+    <string name="tipo_pago">Tipo:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="guarda">Guardar</string>
+    <string name="menu_historial_pagos">Mis Pagos</string>
+    <string name="menu_consejos_financieros">Consejos Financieros</string>
+    <string name="generar">Generar</string>
+    <string name="menu_noticias">Historial Dinero</string>
+</resources>

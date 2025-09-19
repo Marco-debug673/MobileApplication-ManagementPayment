@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Management Payment</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="actualizar">Update</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="inicio_sesión">Login</string>
+    <string name="email">Email address:</string>
+    <string name="email_address">email address</string>
+    <string name="password">Password:</string>
+    <string name="contraseña">password</string>
+    <string name="register">register</string>
+    <string name="enter">Sign in</string>
+    <string name="register_of_the_user">Register of User</string>
+    <string name="correo">Email Address:</string>
+    <string name="correos">email address</string>
+    <string name="contrasena">Password:</string>
+    <string name="contrasenaa">password</string>
+    <string name="registrar">Save</string>
+    <string name="regresar">Back</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Register Money</string>
+    <string name="nombre">Name:</string>
+    <string name="nam">name</string>
+    <string name="apellidos_completos">Last Name:</string>
+    <string name="last_names">last name</string>
+    <string name="sueldos">Salary</string>
+    <string name="salario">salary</string>
+    <string name="guardar">Save</string>
+    <string name="menu_slideshow">Register Payment</string>
+    <string name="nombre_pago">Name:</string>
+    <string name="pago">name of payment</string>
+    <string name="tipo_pago">Type of Payment</string>
+    <string name="fecha">Date</string>
+    <string name="guarda">Save</string>
+    <string name="menu_historial_pagos">My Payment</string>
+    <string name="menu_consejos_financieros">Advice Finance</string>
+    <string name="generar">Generate</string>
+    <string name="menu_noticias">History Money</string>
+</resources>
